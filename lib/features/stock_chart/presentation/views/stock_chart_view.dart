@@ -7,10 +7,12 @@ class StockChartView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Stock Chart'),
+        title: const Text('Stock Chart'),
       ),
-      body: Center(
-        child: Text('Stock Chart'),
+      body: const Column(
+        children: [
+          Text('Stock Chart'),
+        ],
       ),
     );
   }
