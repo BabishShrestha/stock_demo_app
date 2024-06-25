@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:stock_demo_app/core/config/dependency_injection/di.dart';
 import 'package:stock_demo_app/core/theme/bloc/theme_cubit.dart';
 import 'package:stock_demo_app/features/stock_chart/presentation/views/stock_chart_view.dart';
 
@@ -11,6 +12,7 @@ void main() {
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
+  setup();
   runApp(const MainApp());
 }
 

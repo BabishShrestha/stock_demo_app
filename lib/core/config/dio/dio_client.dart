@@ -7,7 +7,7 @@ class DioClient {
   final Dio dio;
 
   DioClient({required this.dio}) {
-    final baseUrl = "https://www.alphavantage.co/"; // Define your base URL here
+    const baseUrl = "https://run.mocky.io/v3/"; // Define your base URL here
     dio.options.baseUrl = baseUrl;
     dio.options.connectTimeout = const Duration(seconds: 30); // 30 sec
     dio.options.receiveTimeout = const Duration(seconds: 30);
