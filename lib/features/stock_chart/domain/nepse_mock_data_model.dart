@@ -59,4 +59,4 @@ class MarketSumary with _$MarketSumary {
       _$MarketSumaryFromJson(json);
 }
 
-enum NepseTimeSeries { minute, hour, day, month, yearly }
+enum NepseTimeSeries { minute, hour, day, month, year }
